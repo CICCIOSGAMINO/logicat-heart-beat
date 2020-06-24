@@ -1,0 +1,14 @@
+{
+  "name": "logicat-heart-beat",
+  "version": "1.0.0",
+  "description": "Simple node.js, snap heart beat for Firebase cloud",
+  "main": "index.mjs",
+  "repository": "https://github.com/CICCIOSGAMINO/logicat-heart-beat.git",
+  "author": "@cicciosgamino <marco.canali@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bin": "./index.mjs",
+  "dependencies": {
+    "firebase": "^7.10.0"
+  }
+}

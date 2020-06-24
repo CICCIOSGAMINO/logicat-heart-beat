@@ -1,0 +1,31 @@
+name: logicat-heart-beat
+title: Logicat Heart Beat
+base: core18
+architectures:
+  - build-on: amd64
+    run-on:  amd64
+  - build-on: armhf
+    run-on: armhf
+version: '1.0.0'
+summary: Simple node.js, snap heart beat for Firebase cloud
+description: |
+  Simple node.js, snap heart beat to use on Firebase cloud, on firebase 
+  auth, and beat the activity
+
+type: app
+icon: logicat.png
+license: MIT
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs and slots
+
+apps:
+  node-service:
+    command: logicat-heart-beat
+    plugs: [network]
+    
+parts:
+  node-service:
+    source: .
+    plugin: nodejs
+    nodejs-version: "13.14.0"
+    nodejs-package-manager: "npm"
