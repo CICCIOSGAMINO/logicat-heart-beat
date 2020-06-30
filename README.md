@@ -19,7 +19,7 @@ FIREBASE_EMAIL=
 # firebase auth password 
 FIREBASE_PSW=
 # update time in seconds 
-HEART_BEAT=3600
+HEART_BEAT=21600
 ```
 
 ## default 
