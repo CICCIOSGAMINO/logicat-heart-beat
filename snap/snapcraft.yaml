@@ -22,10 +22,9 @@ apps:
   node-service:
     command: logicat-heart-beat
     plugs: [network]
-    
+
 parts:
   node-service:
     source: .
     plugin: nodejs
     nodejs-version: "13.14.0"
-    nodejs-package-manager: "npm"
