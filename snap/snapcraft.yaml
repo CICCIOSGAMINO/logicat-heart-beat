@@ -6,7 +6,7 @@ architectures:
     run-on:  amd64
   - build-on: armhf
     run-on: armhf
-version: '1.1.0'
+version: '1.2.0'
 summary: Simple node.js, snap heart beat for Firebase cloud
 description: |
   Simple node.js, snap heart beat to use on Firebase cloud, on firebase 
@@ -30,6 +30,6 @@ parts:
   node-service:
     source: .
     plugin: nodejs
-    nodejs-version: "13.14.0"
+    nodejs-version: "14.13.0"
     stage-packages:
       - libatomic1

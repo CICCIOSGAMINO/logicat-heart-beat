@@ -2,7 +2,7 @@ logicat-heart-beat
 ==================
 [TOC]
 
-Simple node.js, snap heart beat for Firebase cloud. 
+Simple node.js, snap heart beat for Firebase cloud. This is polling health checking service based on a timestamp value updated by the device on firebase cloud. Every device has a single ID on the cloud, and when the interval trigger the check the device update the timestamp field on firebase cloud. 
 
 ## snap serial 
 The device serial id is connected to snap serial, every snapd installation has an unique serial. 
