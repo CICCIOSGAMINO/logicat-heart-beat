@@ -18,7 +18,7 @@ FIREBASE_CONF=
 FIREBASE_EMAIL= 
 # firebase auth password 
 FIREBASE_PSW=
-# update time in seconds 
+# update time in seconds (min time 601sec ~ 10min)
 HEART_BEAT=21600
 ```
 
