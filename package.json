@@ -1,6 +1,6 @@
 {
   "name": "logicat-heart-beat",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Simple node.js, snap heart beat for Firebase cloud",
   "main": "index.mjs",
   "repository": "https://github.com/CICCIOSGAMINO/logicat-heart-beat.git",
