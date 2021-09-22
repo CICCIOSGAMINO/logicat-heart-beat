@@ -8,14 +8,13 @@ architectures:
     run-on: armhf
   - build-on: arm64
     run-on: arm64
-version: '2.1.0'
+version: '2.2.0'
 summary: Simple node.js, snap heart beat for logicat-iot Cloud Platform
 description: |
   Simple node.js, snap heart beat for logicat-iot Cloud Platform. The heart beat
   raiting is set with an environment variable.
 
 type: app
-icon: logicat.png
 license: ISC
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
@@ -36,5 +35,3 @@ parts:
     # fix the npm root problem by set the npm_config_unsafe_perm
     build-environment:
     - npm_config_unsafe_perm: 'true'
-    # stage-packages:
-    #  - libatomic1
