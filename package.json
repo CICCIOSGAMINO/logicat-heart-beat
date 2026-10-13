@@ -9,7 +9,7 @@
   "private": true,
   "bin": "./index.mjs",
   "dependencies": {
-    "firebase": "^9.0.2",
-    "google-auth-library": "^7.9.2"
+    "firebase": "^13.0.0",
+    "google-auth-library": "^11.3.0"
   }
 }
